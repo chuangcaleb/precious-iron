@@ -14,13 +14,13 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "cchesed:preiro/chainmail_chestplate"
+        "recipe": "minecraft:chain"
       }
     }
   },
   "requirements": [["has_iron_nugget", "has_the_recipe"]],
   "rewards": {
-    "recipes": ["cchesed:preiro/chainmail_chestplate"]
+    "recipes": ["minecraft:chain"]
   },
   "sends_telemetry_event": false
 }

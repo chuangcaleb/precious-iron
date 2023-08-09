@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_diamond": {
+    "has_iron_nugget": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
