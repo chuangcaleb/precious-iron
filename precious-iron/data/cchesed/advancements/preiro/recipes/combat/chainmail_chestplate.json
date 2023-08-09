@@ -1,0 +1,26 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_diamond": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:iron_nugget"]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "cchesed:preiro/chainmail_chestplate"
+      }
+    }
+  },
+  "requirements": [["has_iron_nugget", "has_the_recipe"]],
+  "rewards": {
+    "recipes": ["cchesed:preiro/chainmail_chestplate"]
+  },
+  "sends_telemetry_event": false
+}

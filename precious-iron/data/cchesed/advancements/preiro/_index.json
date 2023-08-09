@@ -1,0 +1,21 @@
+{
+  "display": {
+    "title": "Precious Iron (Core)",
+    "description": [
+      {
+        "text": "\nLengthened early-game stone-to-iron technology progression!\n"
+      }
+    ],
+    "icon": {
+      "item": "minecraft:blast_furnace"
+    },
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "parent": "global:cchesed",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

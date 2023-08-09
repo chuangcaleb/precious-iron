@@ -1,0 +1,22 @@
+{
+  "display": {
+    "title": "cchesed            ",
+    "description": [
+      {
+        "text": "§7§nwww.planetminecraft.com/member/calebchan/"
+      }
+    ],
+    "icon": {
+      "item": "minecraft:player_head",
+      "nbt": "{'SkullOwner': 'cchesed'}"
+    },
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "parent": "global:root",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

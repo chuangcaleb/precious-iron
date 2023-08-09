@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["dcd", "dfd", "sis"],
+  "key": {
+    "d": {
+      "item": "minecraft:deepslate"
+    },
+    "c": {
+      "item": "minecraft:calcite"
+    },
+    "f": {
+      "item": "minecraft:furnace"
+    },
+    "i": {
+      "item": "minecraft:iron_block"
+    },
+    "s": {
+      "item": "minecraft:smooth_stone"
+    }
+  },
+  "result": {
+    "item": "minecraft:blast_furnace"
+  }
+}
